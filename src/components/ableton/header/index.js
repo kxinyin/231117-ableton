@@ -15,7 +15,7 @@ export default function AbletonHeader() {
   const [showMore, setShowMore] = useState(false);
 
   const PRIMARY_NAVBAR_ITEMS_LEFT = [
-    { type: "link", text: "Live", url: "#Live" },
+    { type: "link", text: "Live", url: "#live" },
     { type: "link", text: "Push", url: "#push" },
     { type: "link", text: "Note", url: "#note" },
     { type: "link", text: "Link", url: "#link" },

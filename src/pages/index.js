@@ -1,6 +1,5 @@
 /** @format */
 
-import Backdrop from "@/components/ableton/layout/backdrop";
 import Link from "next/link";
 
 // import Image from 'next/image'
@@ -11,9 +10,6 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-      {/* Backdrop */}
-      {/* <Backdrop /> */}
-
       <div className="mx-[90px] my-[30px]">
         <ol className="list-decimal">
           <li>

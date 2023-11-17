@@ -7,7 +7,7 @@ export default function AbletonSecondaryNavbar(props) {
   return (
     <nav
       id="secondary-navbar"
-      className="sticky top-0 bg-white bg-opacity-80 max-w-[1600px] w-full m-auto"
+      className="sticky top-0 bg-white bg-opacity-80 max-w-[1600px] w-full m-auto z-40"
     >
       {/*overflow-x-auto overflow-y-hidden whitespace-nowrap transition-transform duration-[250ms] ease-in-out translate-y-0 -translate-x-2/4 left-2/4 */}
       <ul className="flex pr-[2rem] pl-[1.25rem] py-[1.25rem] relative xl:px-[2.5rem]">

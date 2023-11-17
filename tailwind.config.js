@@ -20,7 +20,6 @@ module.exports = {
       fontSize: {
         // [fontSize, lineHeight]
         // [fontSize, { lineHeight?, letterSpacing?, fontWeight? }]
-
         // * App01 (Ableton)
         app01_xxs: ["10px", { lineHeight: 1.8, fontWeight: "300" }],
         app01_xs: ["12px", { lineHeight: 1.8, fontWeight: "300" }],

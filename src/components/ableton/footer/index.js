@@ -13,7 +13,7 @@ export default function AbletonFooter() {
   return (
     <footer className="max-w-[100rem] mx-auto bg-[#fff]">
       {/* Seperator */}
-      <div className="bg-[#fff] relative pt-[8.33333vw] border-solid border-[2px] border-app01_paleGray" />
+      <div className="bg-[#fff] relative pt-[8.33333vw] border-solid border-b-2 border-app01_paleGray" />
 
       <div className="px-[8.33333vw]">
         <div className="pt-[8.33333vw]">
