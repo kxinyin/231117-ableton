@@ -156,7 +156,7 @@ export default function AbletonMain() {
         ),
         p2: (
           <p>
-            If you're joining us in Berlin, we'll help with relocation and
+            If you’re joining us in Berlin, we’ll help with relocation and
             paperwork. We’ll even provide you with free German or English
             lessons. Plus, working in Germany means you can expect comprehensive
             health insurance for you and your family, as well as generous
