@@ -1,7 +1,7 @@
 /** @format */
 import Image from "next/image";
 import TextLogo from "public/svg/ableton/ableton-wordmark.svg";
-import { LOGO_ABLETON } from "../../../../public/svg/ableton/icons";
+import { LOGO_ABLETON } from "../../../public/svg/ableton/icons";
 import AbletonNewsletterForm from "./form";
 import AbletonFooterInfo from "./information";
 import AbletonEducation from "./education";

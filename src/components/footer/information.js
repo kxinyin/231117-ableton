@@ -5,7 +5,7 @@ import {
   LOGO_INSTAGRAM,
   LOGO_TWITTER,
   LOGO_YOUTUBE,
-} from "../../../../public/svg/ableton/icons";
+} from "../../../public/svg/ableton/icons";
 
 export default function AbletonFooterInfo() {
   const FOOTER_INFO = [
