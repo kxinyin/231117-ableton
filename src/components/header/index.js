@@ -39,7 +39,7 @@ export default function AbletonHeader() {
   ];
 
   const SECONDARY_NAVBAR_ITEMS_RIGHT = [
-    { text: "About", url: "/ableton/about" },
+    { text: "About", url: "/" },
     { text: "Jobs", url: "#jobs" },
     { text: "Apprenticeships", url: "#ausbildung" },
   ];
@@ -54,7 +54,7 @@ export default function AbletonHeader() {
         url: "#colleges-universities",
       },
       { text: "Certified Training", url: "#certified-training" },
-      { text: "About Ableton", url: "/ableton/about" },
+      { text: "About Ableton", url: "/" },
       { text: "Jobs", url: "#jobs" },
       { text: "Apprenticeships", url: "#ausbildung" },
     ],

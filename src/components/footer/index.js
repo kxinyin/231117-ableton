@@ -1,7 +1,7 @@
 /** @format */
 import Image from "next/image";
-import TextLogo from "public/svg/ableton/ableton-wordmark.svg";
-import { LOGO_ABLETON } from "../../../public/svg/ableton/icons";
+import TextLogo from "public/svg/ableton-wordmark.svg";
+import IconLogo from "public/svg/ableton-logo.svg";
 import AbletonNewsletterForm from "./form";
 import AbletonFooterInfo from "./information";
 import AbletonEducation from "./education";
@@ -47,7 +47,11 @@ export default function AbletonFooter() {
 
               <div className="mt-[8.33333vw] w-full text-left lg:float-right lg:w-auto lg:ml-[3em] lg:mt-[1rem]">
                 <span className="inline-block align-middle w-[45px] h-[21px] lg:float-right">
-                  {LOGO_ABLETON}
+                  <Image
+                    src={IconLogo}
+                    alt="Ableton"
+                    className="max-w-full h-auto w-[122px] lg:w-[188px]"
+                  />
                 </span>
                 <span className="inline-block align-middle ml-[1em] text-xs font-semibold lg:float-left lg:mr-[1em]">
                   Made in Berlin

@@ -1,6 +1,7 @@
 /** @format */
 import Link from "next/link";
-import { LOGO_ABLETON } from "public/svg/ableton/icons";
+import Image from "next/image";
+import IconLogo from "public/svg/ableton-logo.svg";
 import { ICON_DOWN, ICON_UP } from "public/svg/icons";
 
 export default function AbletonPrimaryNavbar(props) {
@@ -13,13 +14,19 @@ export default function AbletonPrimaryNavbar(props) {
 
   return (
     <nav className="flex">
-      <a
+      <Link
+        passHref
+        href="/"
         className={`inline-block align-midlle mr-[2em] mb-[1.25rem] ml-[1.25rem] relative z-50 ${
           isMenuOpen ? "text-white" : "text-black"
         } lg:text-black xl:mr-[2rem] xl:ml-[2.5rem] w-[60px] h-[28px]`}
       >
-        {LOGO_ABLETON}
-      </a>
+        <Image
+          src={IconLogo}
+          alt="Ableton"
+          className="max-w-full h-auto w-[122px] lg:w-[188px]"
+        />
+      </Link>
 
       <div className="lg:absolute lg:w-full">
         {/* Mobile Menu */}

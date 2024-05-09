@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-const PosterJuanpe = "/image/ableton/poster-juanpe.avif";
+const PosterJuanpe = "/image/poster-juanpe.avif";
 
 export default function AbletonMainMedia1() {
   const [isPlaying, setIsPlaying] = useState(false);

@@ -1,8 +1,8 @@
 /** @format */
 
 import Image from "next/image";
-import TextLogo from "public/svg/ableton/ableton-wordmark-coral.svg";
-const HeaderImage = "/image/ableton/header.jpg";
+import TextLogo from "public/svg/ableton-wordmark-coral.svg";
+const HeaderImage = "/image/header.jpg";
 
 export default function AbletonMainHeader() {
   return (

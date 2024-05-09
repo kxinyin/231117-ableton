@@ -5,12 +5,12 @@ import {
   LOGO_INSTAGRAM,
   LOGO_TWITTER,
   LOGO_YOUTUBE,
-} from "../../../public/svg/ableton/icons";
+} from "../../../public/svg/icons";
 
 export default function AbletonFooterInfo() {
   const FOOTER_INFO = [
     { type: "link", text: "Register Live or Push", url: "#acc-add-license" },
-    { type: "link", text: "About Ableton", url: "/ableton/about" },
+    { type: "link", text: "About Ableton", url: "/" },
     { type: "link", text: "Jobs", url: "#jobs" },
   ];
 

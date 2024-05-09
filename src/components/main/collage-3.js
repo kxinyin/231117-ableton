@@ -1,8 +1,8 @@
 /** @format */
 
 import Image from "next/image";
-const Photo6 = "/image/ableton/photo-6-a.jpg";
-const Photo7 = "/image/ableton/photo-7.jpg";
+const Photo6 = "/image/photo-6-a.jpg";
+const Photo7 = "/image/photo-7.jpg";
 
 export default function AbletonMainCollage3() {
   return (

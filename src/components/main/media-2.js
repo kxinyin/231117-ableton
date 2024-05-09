@@ -1,7 +1,7 @@
 /** @format */
 
 import Image from "next/image";
-const PosterMeetTheMakers = "/image/ableton/poster-meet-the-makers.jpg";
+const PosterMeetTheMakers = "/image/poster-meet-the-makers.jpg";
 
 export default function AbletonMainMedia2() {
   return (

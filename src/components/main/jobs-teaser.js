@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
-const Photo8D = "/image/ableton/photo-8.jpg";
-const Photo8M = "/image/ableton/photo-8 (1).jpg";
+const Photo8D = "/image/photo-8.jpg";
+const Photo8M = "/image/photo-8 (1).jpg";
 
 export default function AbletonMainJobsTeasers() {
   return (
