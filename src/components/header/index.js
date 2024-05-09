@@ -92,8 +92,6 @@ export default function AbletonHeader() {
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
-  // TODO: (closeMenu) refocus on tab
-
   return (
     <>
       <div className="lg:hidden">
@@ -128,7 +126,7 @@ export default function AbletonHeader() {
         </div>
 
         {/* Divider */}
-        <div className="block border-solid border-t-2 bg-app01_paleGray"></div>
+        <div className="block border-solid border-t-2 bg-paleGray"></div>
       </header>
 
       <AbletonSecondaryNavbar

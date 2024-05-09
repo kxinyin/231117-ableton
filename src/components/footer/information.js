@@ -43,7 +43,7 @@ export default function AbletonFooterInfo() {
 
   return (
     <div className="pb-[8.33333vw] lg:pr-[0.625rem] md:pb-[4.16667vw] lg:w-[30%] lg:float-left">
-      <ul className="text-app01_sm lg:text-app01_base">
+      <ul className="text-sm lg:text-base">
         {FOOTER_INFO.map((item, index) => (
           <li key={index}>
             <Link href={item.url}>{item.text} &rsaquo;</Link>

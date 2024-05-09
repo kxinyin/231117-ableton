@@ -12,11 +12,11 @@ import AbletonMainJobsTeasers from "./jobs-teaser";
 function AbletonMainText({ p1, p2 }) {
   return (
     <div className="mb-[8.33333vw] mx-[8.33333vw] md:w-[66.66667vw] md:mx-auto xl:w-[50vw] min-[1600px]:w-[800px]">
-      <h1 className="mb-[1rem] text-app01_base font-semibold min-[1124px]:text-app01_lg min-[1124px]:font-semibold">
+      <h1 className="mb-[1rem] text-base font-semibold min-[1124px]:text-lg min-[1124px]:font-semibold">
         {p1}
       </h1>
 
-      <div className="text-app01_sm min-[1124px]:text-app01_base">{p2}</div>
+      <div className="text-sm min-[1124px]:text-base">{p2}</div>
     </div>
   );
 }
@@ -30,15 +30,15 @@ export default function AbletonMain() {
         p1: (
           <>
             We make{" "}
-            <Link href="#live" className="text-app01_blue">
+            <Link href="#live" className="text-blue">
               Live
             </Link>
             ,{" "}
-            <Link href="#push" className="text-app01_blue">
+            <Link href="#push" className="text-blue">
               Push
             </Link>{" "}
             and{" "}
-            <Link href="#link" className="text-app01_blue">
+            <Link href="#link" className="text-blue">
               Link
             </Link>{" "}
             — unique software and hardware for music creation and performance.

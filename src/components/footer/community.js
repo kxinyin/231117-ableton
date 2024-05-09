@@ -18,7 +18,7 @@ export default function AbletonCommunity() {
   ];
 
   return (
-    <div className="pb-[8.33333vw] text-app01_sm md:pb-[4.16667vw] lg:pr-[0.625rem] lg:w-[30%] lg:float-left lg:text-app01_base">
+    <div className="pb-[8.33333vw] text-sm md:pb-[4.16667vw] lg:pr-[0.625rem] lg:w-[30%] lg:float-left lg:text-base">
       <h3 className="font-semibold">Community</h3>
       <ul>
         {FOOTER_COMMUNITY.map((item, index) => (

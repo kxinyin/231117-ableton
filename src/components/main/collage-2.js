@@ -8,7 +8,7 @@ const Photo5 = "/image/ableton/photo-5.jpg";
 export default function AbletonMainCollage2() {
   return (
     <div className="relative mb-[8.33333vw] min-[1600px]:mb-[133.33333px]">
-      <div className="w-[58.33333vw] h-[75vw] bg-app01_mintGreen absolute min-[1600px]:w-[933.33333px] min-[1600px]:h-[1200px]" />
+      <div className="w-[58.33333vw] h-[75vw] bg-mintGreen absolute min-[1600px]:w-[933.33333px] min-[1600px]:h-[1200px]" />
 
       <div className="w-full h-full p-[8.33333vw] relative flex flex-row items-center">
         <div>

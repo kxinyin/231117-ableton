@@ -25,7 +25,7 @@ export default function AbletonMainMedia1() {
             ) : (
               <div onClick={() => setIsPlaying(true)}>
                 <div className="w-full flex items-center justify-center absolute top-0 right-0 bottom-0 left-0">
-                  <span className="w-[5rem] h-[5rem] bg-app01_blue text-white rounded-[50%] relative">
+                  <span className="w-[5rem] h-[5rem] bg-blue text-white rounded-[50%] relative">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 48 56"
@@ -44,7 +44,7 @@ export default function AbletonMainMedia1() {
             )}
           </div>
         </div>
-        <figcaption className="max-w-[83.33333vw] text-app01_xs font-semibold p-[0.625rem]">
+        <figcaption className="max-w-[83.33333vw] text-xs font-semibold p-[0.625rem]">
           Why Ableton - Juanpe Bolivar
         </figcaption>
       </figure>

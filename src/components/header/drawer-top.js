@@ -18,10 +18,8 @@ export default function AbletonDrawerTop(props) {
     <div
       id="drawer-top"
       className={`absolute top-0 left-0 z-50 w-full pt-[4.375rem] px-[0.9375rem] overflow-y-auto transition-transform duration-[350ms] ease-in-out ${
-        isOpen
-          ? "translate-y bg-app01_blue"
-          : "-translate-y-full bg-transparent"
-      } text-white text-app01_base`}
+        isOpen ? "translate-y bg-blue" : "-translate-y-full bg-transparent"
+      } text-white text-base`}
       tabIndex="-1"
       aria-labelledby="drawer-label"
     >

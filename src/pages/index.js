@@ -14,7 +14,7 @@ export default function Ableton() {
         </title>
       </header>
 
-      <main className="bg-app01_paleGray min-h-screen font-app01_main">
+      <main className="bg-paleGray min-h-screen font-main">
         <AbletonHeader />
         <AbletonMain />
         <AbletonFooter />

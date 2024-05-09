@@ -22,14 +22,14 @@ export default function AbletonLanguageLocation() {
   ];
 
   return (
-    <div className="pb-[8.33333vw] text-app01_sm md:pb-[4.16667vw] lg:pr-[0.625rem] lg:w-[40%] lg:float-left lg:text-app01_base">
+    <div className="pb-[8.33333vw] text-sm md:pb-[4.16667vw] lg:pr-[0.625rem] lg:w-[40%] lg:float-left lg:text-base">
       <h3 className="font-semibold">Language and Location</h3>
 
       <div className="mt-[0.75em]">
         <div className="inline-block mr-[2px] max-w-[200px]">
           <div className="inline-block relative max-w-none w-auto">
             <form>
-              <select className="inline-block text-app01_xs font-semibold w-full h-[1.875rem] m-0 pr-[50px] pl-[0.75em] py-[0.35em] bg-app01_paleGray border-0 cursor-pointer text-black">
+              <select className="inline-block text-xs font-semibold w-full h-[1.875rem] m-0 pr-[50px] pl-[0.75em] py-[0.35em] bg-paleGray border-0 cursor-pointer text-black">
                 {FOOTER_LANGUAGE.map((item, index) => (
                   <option key={index} value={item.code}>
                     {item.text}
@@ -43,7 +43,7 @@ export default function AbletonLanguageLocation() {
         <div className="inline-block mr-[2px] max-w-[200px]">
           <div className="inline-block relative max-w-none w-auto">
             <form>
-              <select className="inline-block text-app01_xs font-semibold w-full h-[1.875rem] m-0 pr-[50px] pl-[0.75em] py-[0.35em] bg-app01_paleGray border-0 cursor-pointer text-black">
+              <select className="inline-block text-xs font-semibold w-full h-[1.875rem] m-0 pr-[50px] pl-[0.75em] py-[0.35em] bg-paleGray border-0 cursor-pointer text-black">
                 {FOOTER_LOCATION.map((item, index) => (
                   <option key={index} value={item.code}>
                     {item.text}

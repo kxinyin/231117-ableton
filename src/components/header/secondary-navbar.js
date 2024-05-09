@@ -19,7 +19,7 @@ export default function AbletonSecondaryNavbar(props) {
               key={index}
               href={item.url}
               className={`px-[0.625rem] mx-0 first:pl-0 ${
-                isActive ? "text-app01_coral" : "text-black"
+                isActive ? "text-coral" : "text-black"
               } text-[13px] font-semibold xl:mx-[0.3125rem] xl:text-[15px] xl:font-semibold xl:first:ml-0`}
             >
               <li>{item.text}</li>

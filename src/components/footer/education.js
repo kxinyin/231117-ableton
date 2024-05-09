@@ -18,7 +18,7 @@ export default function AbletonEducation() {
   ];
 
   return (
-    <div className="pb-[8.33333vw] text-app01_sm lg:pr-[0.625rem] md:pb-[4.16667vw] lg:w-[30%] lg:float-left lg:text-app01_base">
+    <div className="pb-[8.33333vw] text-sm lg:pr-[0.625rem] md:pb-[4.16667vw] lg:w-[30%] lg:float-left lg:text-base">
       <h3 className="font-semibold">Education</h3>
       <ul>
         {FOOTER_EDUCATION.map((item, index) => (

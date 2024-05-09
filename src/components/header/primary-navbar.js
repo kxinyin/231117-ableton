@@ -24,7 +24,7 @@ export default function AbletonPrimaryNavbar(props) {
       <div className="lg:absolute lg:w-full">
         {/* Mobile Menu */}
         <button
-          className={`text-app01_base font-semibold flex items-end gap-1 relative z-50 ${
+          className={`text-base font-semibold flex items-end gap-1 relative z-50 ${
             isMenuOpen ? "text-white" : "text-black"
           } lg:hidden`}
           onClick={toggleMenu}
@@ -43,7 +43,7 @@ export default function AbletonPrimaryNavbar(props) {
         </button>
 
         {/* Desktop Menu */}
-        <ul className="hidden lg:flex w-full items-end overflow-hidden h-[1.75rem] pl-[6.25rem] pr-[1.25rem] text-app01_sm font-medium xl:pl-[8.75rem] xl:pr-[2.5rem] xl:text-app01_base xl:font-medium ">
+        <ul className="hidden lg:flex w-full items-end overflow-hidden h-[1.75rem] pl-[6.25rem] pr-[1.25rem] text-sm font-medium xl:pl-[8.75rem] xl:pr-[2.5rem] xl:text-base xl:font-medium ">
           {PRIMARY_NAVBAR_ITEMS_LEFT.map((item, index) => {
             if (item.type === "link")
               return (
@@ -58,7 +58,7 @@ export default function AbletonPrimaryNavbar(props) {
               return (
                 <li
                   key={index}
-                  className="px-[0.625rem] mx-0 text-app01_coral xl:mx-[0.625rem]"
+                  className="px-[0.625rem] mx-0 text-coral xl:mx-[0.625rem]"
                 >
                   <button onClick={item.func}>{item.text}</button>
                 </li>
@@ -70,10 +70,10 @@ export default function AbletonPrimaryNavbar(props) {
               item.type === "link" && (
                 <li
                   key={index}
-                  className={`pr-0 pl-[0.625rem] mr-0 text-app01_xs font-medium xl:font-medium ${
+                  className={`pr-0 pl-[0.625rem] mr-0 text-xs font-medium xl:font-medium ${
                     index === 0
-                      ? "ml-auto text-app01_blue xl:px-[0.625rem] xl:text-app01_base"
-                      : "ml-[0.3125rem] text-black xl:px-0 xl:ml-[0.625rem] xl:text-app01_sm"
+                      ? "ml-auto text-blue xl:px-[0.625rem] xl:text-base"
+                      : "ml-[0.3125rem] text-black xl:px-0 xl:ml-[0.625rem] xl:text-sm"
                   }`}
                 >
                   <Link href={item.url}>{item.text}</Link>

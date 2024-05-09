@@ -13,7 +13,7 @@ export default function AbletonFooter() {
   return (
     <footer className="max-w-[100rem] mx-auto bg-[#fff]">
       {/* Seperator */}
-      <div className="bg-[#fff] relative pt-[8.33333vw] border-solid border-b-2 border-app01_paleGray" />
+      <div className="bg-[#fff] relative pt-[8.33333vw] border-solid border-b-2 border-paleGray" />
 
       <div className="px-[8.33333vw]">
         <div className="pt-[8.33333vw]">
@@ -49,7 +49,7 @@ export default function AbletonFooter() {
                 <span className="inline-block align-middle w-[45px] h-[21px] lg:float-right">
                   {LOGO_ABLETON}
                 </span>
-                <span className="inline-block align-middle ml-[1em] text-app01_xs font-semibold lg:float-left lg:mr-[1em]">
+                <span className="inline-block align-middle ml-[1em] text-xs font-semibold lg:float-left lg:mr-[1em]">
                   Made in Berlin
                 </span>
               </div>

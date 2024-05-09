@@ -13,7 +13,7 @@ export default function AbletonPolicy() {
   ];
 
   return (
-    <div className="inline-block align-middle text-app01_xs lg:mt-[1rem] lg:w-auto">
+    <div className="inline-block align-middle text-xs lg:mt-[1rem] lg:w-auto">
       {FOOTER_LEGAL.map((item, index) => (
         <Link
           key={index}
